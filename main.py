@@ -6,21 +6,10 @@ from SudokuSolver import Sudoku
 
 print('Enter your Sudoku board (0 refers to a blank space)')
 
-sudoku=[
-        [0,2,0,6,0,8,0,0,0],
-        [5,8,0,0,0,9,7,0,0],
-        [0,0,0,0,4,0,0,0,0],
-        [3,7,0,0,0,0,5,0,0],
-        [6,0,0,0,0,0,0,0,4],
-        [0,0,8,0,0,0,0,1,3],
-        [0,0,0,0,2,0,0,0,0],
-        [0,0,9,8,0,0,0,3,6],
-        [0,0,0,3,0,6,0,9,0]
-]
-# sudoku=[]
-# for i in range(9):
-#     temp = list(map(int, input().split()))
-#     sudoku.append(temp)
+sudoku=[]
+for i in range(9):
+    temp = list(map(int, input().split()))
+    sudoku.append(temp)
     
 # create window and set properties
 cv2.namedWindow("Sudoku Solver",cv2.WINDOW_NORMAL)
