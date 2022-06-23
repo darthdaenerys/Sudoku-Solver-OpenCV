@@ -35,6 +35,13 @@ Below is an example of how the input might look.
 0 0 9  8 0 0  0 3 6
 0 0 0  3 0 6  0 9 0
 ```
+## Sample Test Case
+
+![](Sudoku-Solver-1.png)
+
+![](Sudoku-Solver-2.png)
+
+![](Sudoku-Solver-3.png)
 
 ## How It Works
 
